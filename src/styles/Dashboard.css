@@ -1,0 +1,41 @@
+.stat-card {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 0.75rem; /* rounded-xl */
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  border: 1px solid #f3f4f6; /* gray-100 */
+  transition: box-shadow 0.2s;
+}
+
+.stat-card:hover {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.dark .stat-card {
+  background-color: #1f2937; /* gray-800 */
+  border-color: #374151; /* gray-700 */
+}
+
+.chart-container {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 0.75rem; /* rounded-xl */
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  border: 1px solid #f3f4f6; /* gray-100 */
+}
+
+.dark .chart-container {
+  background-color: #1f2937; /* gray-800 */
+  border-color: #374151; /* gray-700 */
+}
+
+.chart-title {
+  font-size: 1.125rem; /* text-lg */
+  font-weight: 700;
+  color: #111827; /* gray-900 */
+  margin-bottom: 1.5rem;
+}
+
+.dark .chart-title {
+  color: white;
+}

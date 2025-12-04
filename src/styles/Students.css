@@ -1,0 +1,58 @@
+.table-container {
+  background-color: white;
+  border-radius: 0.75rem; /* rounded-xl */
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  border: 1px solid #f3f4f6; /* gray-100 */
+  overflow: hidden;
+}
+
+.dark .table-container {
+  background-color: #1f2937; /* gray-800 */
+  border-color: #374151; /* gray-700 */
+}
+
+.table-header-cell {
+  padding: 1rem;
+  font-size: 0.75rem; /* text-xs */
+  font-weight: 600;
+  color: #6b7280; /* gray-500 */
+  text-transform: uppercase;
+  letter-spacing: 0.05em; /* tracking-wider */
+  background-color: #f9fafb; /* gray-50 */
+  border-bottom: 1px solid #f3f4f6; /* gray-100 */
+}
+
+.dark .table-header-cell {
+  color: #9ca3af; /* gray-400 */
+  background-color: rgba(55, 65, 81, 0.5); /* gray-700/50 */
+  border-color: #374151; /* gray-700 */
+}
+
+.table-row {
+  transition: background-color 0.2s;
+  border-bottom: 1px solid #f9fafb;
+}
+
+.table-row:hover {
+  background-color: #f9fafb; /* gray-50 */
+}
+
+.dark .table-row {
+  border-color: #374151; /* gray-700 */
+}
+
+.dark .table-row:hover {
+  background-color: rgba(55, 65, 81, 0.5); /* gray-700/50 */
+}
+
+.status-badge {
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  width: fit-content;
+  border-radius: 9999px; /* rounded-full */
+  font-size: 0.75rem; /* text-xs */
+  font-weight: 500;
+  display: inline-block;
+}
